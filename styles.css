@@ -1,0 +1,89 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left, rgb(177, 231, 127), rgb(39, 122, 199));
+    font-family: cursive sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+.chatBox{
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10vh;
+    min-height: 30vh;
+    max-height: 70vh;
+    min-width: 40vw;
+    max-width: 65vw;
+    margin: auto;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 15px 10px rgb(73, 72, 72);
+    padding: 10px;
+}
+
+.chatMessages{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.9;
+    float: left;
+    overflow-y: auto;
+    min-height: 20vh;
+}
+
+.chatMessages .chat{
+    padding: 10px 5px;
+    border:1px solid black;
+    border-radius: 20px;
+    float: left;
+    width: 70%;
+    word-wrap: break-word;
+}
+.textVoiceInput{
+    display: flex;
+    flex-grow: 0.1;
+    padding: 2px;
+}
+.textVoiceInput input{
+    flex: 0.8;
+    font-size: 1.2rem;
+    padding-left: 6px;
+    border-radius: 50px;
+}
+
+.textVoiceInput .send {
+    flex:0.1;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+}
+.textVoiceInput .send:hover, .talk:hover {
+    opacity: 1;
+}
+.textVoiceInput .talk {
+    flex:0.1;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 2px;
+    background-color: green;
+    color: white;
+    opacity: 0.8;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+

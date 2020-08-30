@@ -1,0 +1,7 @@
+### Chat Bot Using Js
+
+> Currently working on :
+1. Speech Recognition DONE
+2. Speech to text DONE
+3. Get Response
+4. Get Spoken as well as written response
